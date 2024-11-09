@@ -21,16 +21,16 @@ console.log(cansLeft < `5` ? "Time to restock!" : "We're stocked!");
 // Based on the current heart rate, determine if the user should drink a Monster Energy drink to boost their workout. 
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
-let heartRate = 100; // Current heart rate in bpm
-console.log(`'}`);
+let heartRate = 10; // Current heart rate in bpm
+console.log(heartRate < `100` ? "Boost needed!" : "Energy levels are high!");
 
 
 // #### Challenge 4: Temperature Suitability
 // Monster Energy drinks are best served cold. Given the current temperature, use a ternary to print "Chilled to perfection!" 
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
 
-let currentTemp = 1; // Current temperature in °C
-
+let currentTemp = 5; // Current temperature in °C
+console.log(currentTemp > `5` ?   "Needs a cooler!" : "Chilled to perfection!");
 
 // #### Challenge 5: Late Night Coding Session
 // Determine if it's a good idea to have a Monster Energy drink based on the current hour.

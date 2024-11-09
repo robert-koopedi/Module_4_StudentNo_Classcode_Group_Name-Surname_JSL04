@@ -38,12 +38,13 @@ console.log(currentTemp > `5` ?   "Needs a cooler!" : "Chilled to perfection!");
 // otherwise, print "Better stick to water."
 
 // Define the current hour in 24-hour format
-let currentHour = 3;
+let currentHour =22;
 
 
 // Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
 // Otherwise, print "Better stick to water."
+console.log(currentHour >=`7` && currentHour < `23` ? "Unleash the beast!" : "Better stick to water.");
 
 
 
